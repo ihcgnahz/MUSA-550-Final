@@ -24,7 +24,6 @@ Comparing the victims distribution of each year, the hot spot doesn't change too
 
 <div id="shootings-year-chart"></div>
 
-
 ### Hour
 Comparing the victims distribution by hourly interval, north of downtown is always the hot spot area. From 9 p.m. to 23 p.m., shootings are clustered at the northwest of city. (Please [click](https://htmlpreview.github.io/?https://github.com/ihcgnahz/shooting_victims/blob/master/charts/shootings_hour.html) here to see the interactive map)
 
