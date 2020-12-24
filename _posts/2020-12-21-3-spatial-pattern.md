@@ -8,7 +8,10 @@ folium-loader:
   folium-chart-1: ["charts/crime_cluster.html", "400"]
   folium-chart-2: ["charts/average_age.html", "400"]
 hv-loader:
-  shootings-year-chart: ["charts/shootings_year.html", "700"] # second argument is the height
+  shootings-year-chart: ["charts/shootings_year.html", "700"] 
+  shootings-race-chart: ["charts/shootings_race.html", "700"] 
+  shootings-sex-chart: ["charts/shootings_sex.html", "700"] 
+  shootings-hour-chart: ["charts/shootings_hour.html", "700"] 
 toc: true
 toc_sticky: true
 ---
@@ -27,17 +30,17 @@ Comparing the victims distribution of each year, the hot spot doesn't change too
 ### Hour
 Comparing the victims distribution by hourly interval, north of downtown is always the hot spot area. From 9 p.m. to 23 p.m., shootings are clustered at the northwest of city. (Please [click](https://htmlpreview.github.io/?https://github.com/ihcgnahz/shooting_victims/blob/master/charts/shootings_hour.html) here to see the interactive map)
 
-![shootings_hour](https://raw.githubusercontent.com/ihcgnahz/shooting_victims/master/charts/shootings_hour.gif)
+<div id="shootings-hour-chart"></div>
 
 ### Gender
 Though the count of male victims far exceeds the female, the spatial distribution of two genders show a similar pattern.(Please [click](https://htmlpreview.github.io/?https://github.com/ihcgnahz/shooting_victims/blob/master/charts/shootings_sex.html) here to see the interactive map)
 
-![shootings_sex](https://raw.githubusercontent.com/ihcgnahz/shooting_victims/master/charts/shootings_sex.gif)
+<div id="shootings-sex-chart"></div>
 
 ### Race
 The spatial distribution of different races is significantly different. As we can see, white victims clustered at Upper North, while black victims widely distributed in Upper North, West, Oak Lane and Lower Northeast. (Please [click](https://htmlpreview.github.io/?https://github.com/ihcgnahz/shooting_victims/blob/master/charts/shootings_race.html) here to see the interactive map)
 
-![shootings_race](https://raw.githubusercontent.com/ihcgnahz/shooting_victims/master/charts/shootings_race.gif)
+<div id="shootings-race-chart"></div>
 
 ### Average Age
 Below is a map telling the average age of victims in each tract. In most cases, the average age ranges from 25 to 35. The average is larger in the northeast of Philly. Since there are little victims at Far Northeast. The sample may not sufficient to draw a conclusion.
